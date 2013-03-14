@@ -1,0 +1,152 @@
+html, body, button {
+	font-size: 10px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+	background: #f1f1f1;
+}
+
+header {
+	background: linear-gradient(to bottom, #033323 37%,#ff6600 100%);
+	color: #fff;
+	height: 50px;
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+}
+
+header #btnBack {
+	background: #00539f url(images/back.png) no-repeat -0.5rem center;
+	position: absolute;
+	left: 0;
+	width: 2rem;
+	border: none;
+	height: 100%;
+	margin: 0;
+}
+
+header #btnRefresh {
+	background: url(images/update.png) no-repeat center center;
+	width: 4rem;
+	border: none;
+	height: 100%;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+header #btnRefresh:active {
+	background-color: #ff6600;
+}
+
+header #btnBack:active {
+	background-color: #ff6600;
+}
+
+header #btnBack img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	/* background-image: url("images/back.png"); */
+	background-color: #00539f;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	width: 2rem;
+	height: 100%;
+	z-index: -1;
+}
+
+header h1 {
+	background: url("images/mainsepa.png") no-repeat scroll left top;
+	display: block;
+	font-weight: normal;
+	font-size: 2.2rem;
+	line-height: 4.9rem;
+	height: 100%;
+	margin: 0 0 0 2rem;
+	padding: 0 0 0 1rem;
+	overflow: hidden;
+	text-align: left;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+header ul {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 100%;
+	min-width: 12rem;
+}
+
+header li {
+	float: left;
+	list-style: none;
+	background: url("images/separator.png") no-repeat scroll left top;
+	min-width: 6rem;
+	padding: 0rem 0.5rem 0rem 0.5rem;
+	text-align: center;
+	width: auto;
+	height: 100%;
+}
+
+header li:active {
+	background-color: #ff6600;
+}
+
+section{
+	padding-top: 50px;
+}
+
+#send {
+	background: url(images/send.png) no-repeat center center;
+}
+#loading {
+	font-size: 2rem;
+	line-height: 2;
+	text-align: center;
+}
+#browser {
+	border-style: none;
+	width: 100%;
+	padding-top: 50px;
+}
+/* POST ENTRIES */
+.post {
+	background-color: #F6F6EF;
+	border-bottom: 1px solid orange;
+	padding: 5px;
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+
+.post:visited {
+	color:#828282;
+}
+
+.post-title {
+	font-weight: 700;
+	font-size: 1.6em;
+	margin: 0;
+	padding: 0;
+}
+.post-points, .post-url, .post-timeago, .post-comments {
+  font-size: 1.2em;
+  line-height: 2;
+}
+.post-url {
+	color: #828282;
+}
+.post-url:before {
+	content: " - ";
+}
+.post-url:after {
+	content: " - ";
+}
+.post-comments:before {
+	content: " - ";
+}

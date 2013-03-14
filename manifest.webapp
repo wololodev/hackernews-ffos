@@ -1,0 +1,27 @@
+{
+  "version": "0.0.1",
+  "name": "HackerNews",
+  "launch_path": "/index.html",
+  "description": "Hacker News optimized for the fox!",
+  "icons": {
+    "16": "/applogos/logo16.png",
+    "30": "/applogos/icon30.png",
+    "32": "/applogos/logo32.png",
+    "48": "/applogos/logo48.png",
+    "60": "/applogos/icon60.png",
+    "64": "/applogos/logo64.png",
+    "128": "/applogos/logo128.png"
+  },
+  "developer": {
+    "name": "Hamed Al-Khabaz",
+    "url": "http://wololodev.com"
+  },
+  "installs_allowed_from": ["*"],
+  "default_locale": "en",
+  "permissions": {
+    "browser": {
+      "description": "Required to read pages"
+    }
+  },
+  "type": "privileged"
+}
